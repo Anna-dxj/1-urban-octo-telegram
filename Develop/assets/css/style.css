@@ -15,16 +15,28 @@ header {
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+header h1 {
+>>>>>>> 12f4d9a935ca95696ef3ca50dd9bf7fe18798acd
     display: inline-block;
     font-size: 48px;
 }
 
+<<<<<<< HEAD
 .seo {
     color: #d9dcd6;
 }
 
 nav {
+=======
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav {
+>>>>>>> 12f4d9a935ca95696ef3ca50dd9bf7fe18798acd
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,8 +44,16 @@ nav {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 li {
     list-style-type: none;
+=======
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+>>>>>>> 12f4d9a935ca95696ef3ca50dd9bf7fe18798acd
     display: inline-block;
     margin-left: 25px;
 }
