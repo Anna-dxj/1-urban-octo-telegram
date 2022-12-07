@@ -23,7 +23,7 @@ N/A
 
 ## Usage
 
-To navigate to this webpage, please [click here](https://anna-dxj.github.io/1-urban-octo-telegram/). The website should appear like the screenshot below: 
+To navigate to this webpage, please [click here](https://anna-dxj.github.io/md1-urban-octo-telegram/). The website should appear like the screenshot below: 
 
 ![Screenshot-1](assets/images/screenshot-no-devtools.png)
 
