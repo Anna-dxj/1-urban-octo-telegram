@@ -1,29 +1,32 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Affects all body elements HTML lines 18~89*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Affects all header elements (HTML lines 10~26 CSS lines 13~47)
+Made CSS selectors for header less specific, just selects element as selector (less repetitive, HTML doesn't repeat these elements)*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Affects all h1 elements (HTML line 12)*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.seo {
+/*Affects span in HTML line 12*/
+span {
     color: #d9dcd6;
 }
-
+/*Affects nav elements (HTML lines 13~25 CSS lines 28~47)
+Change .header div to nav (semantic HTML)*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,18 +34,18 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Affects HTML lines 15~23*/
 li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Affects HTML lines 16, 19, 22*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Corresponds to HTML line 28*/
 .hero {
     height: 800px;
     width: 100%;
@@ -51,13 +54,15 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/*Affects main elements (HTML lines 30~58 CSS lines 59~99)
+Change CSS selectors from .content... to just the element selector*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Affects all article elements HTML lines 31~57)
+Change .search-engine-optimization, online-class-reputation-management, social-media-marketing into one CSS selector, with article as the selector*/
 article {
     margin-bottom: 20px; 
     padding: 50px; 
@@ -66,32 +71,35 @@ article {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-figure img {
-    max-height: 200px;
-}
-
+/*Affect HTML lines 33 and 51
+Collapse .search-engine-optimization img and .social-media-marketing img into one class selector
+Moved down from lines 62~70 to be closer to article styles*/
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
-
+/*Affect HTML lines 42
+Collapse .online-reputation-management img into one class selector
+Moved down from lines 62~70 to be closer to article styles*/
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
-
-
+/*Affects HTML lines 35, 44, 53*/
 h2 {
     margin-bottom: 20px;
     font-size: 30px;
 }
-
+/*Affects HTML lines 36~38, 45~47, 54~56*/
 p {
     font-size: 16px;
     color: #ffffff;
 }
-
+/*Affects all aside elements HTML line 60~82 CSS lines 103~139
+Change CSS selectors from .benefits... to just element selector
+Move section below main styles*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,30 +110,34 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Affects all div elements HTML lines 61~81 CSS lines 116~139
+Collapse .benefit-lead .benefit-brand .benefit-cost into one selector
+*/
 div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Affects all h3 elements HTML lines 62, 69, 76*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-div img {
+/*Affects images in aside HTML lines 63, 70, 77*/ 
+.benefit-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Affects all footer elements HTML lines 83~88 CSS lines 134~142
+Change CSS selectors from .footer... to just element selector
+Move section below aside selectors*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Affects all h4 elements HTML line 84*/
 h4 {
     font-size: 20px;
 }
