@@ -29,7 +29,7 @@ To navigate to this webpage, please [click here](https://anna-dxj.github.io/md1-
 
 To access Chrome DevTools, access the webpage from Google Chrome and press Command+Option+I (MacOS) or Control+Shift+I (Windows). A console will appear on the webpage, and you may inspect the structure of the webpage through the console. This is what it looks like when Chrome DevTools have been accessed: 
 
-![Screenshot-2](md1-urban-octo-telegram/assets/images/Screenshot-with-devtools.png)
+![Screenshot-2](assets/images/Screenshot-with-devtools.png)
 
 ## Credits
 
