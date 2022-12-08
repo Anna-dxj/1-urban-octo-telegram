@@ -25,7 +25,7 @@ N/A
 
 To navigate to this webpage, please [click here](https://anna-dxj.github.io/md1-urban-octo-telegram/). The website should appear like the screenshot below: 
 
-<img scr="md1-urban-octo-telegram/assets/images/Screenshot-no-devtools.png" alt="screenshot 1"/>
+<img scr="assets/images/Screenshot-no-devtools.png" alt="screenshot 1"/>
 
 To access Chrome DevTools, access the webpage from Google Chrome and press Command+Option+I (MacOS) or Control+Shift+I (Windows). A console will appear on the webpage, and you may inspect the structure of the webpage through the console. This is what it looks like when Chrome DevTools have been accessed: 
 
